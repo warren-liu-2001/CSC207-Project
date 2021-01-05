@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GUI</OriginalElement>
+  <nodes>
+    <node x="1084.1458333333335" y="3682.0">GUI.LoginPanel</node>
+    <node x="1734.4166666666667" y="652.0">GUI.CreationScreenController</node>
+    <node x="2328.3541666666665" y="1712.0">GUI.SchedulePanel</node>
+    <node x="679.5" y="3196.0">GUI.SignUpPanel</node>
+    <node x="721.0" y="2826.0">GUI.SignUpController</node>
+    <node x="812.268269230769" y="773.0">GUI.MessageScreenController</node>
+    <node x="1942.8685897435898" y="0.0">GUI.EventEditController</node>
+    <node x="627.0035256410256" y="1712.0">GUI.ReviewScreenPanel</node>
+    <node x="0.0" y="1004.0">GUI.ReviewScreenController</node>
+    <node x="409.26826923076896" y="883.0">GUI.DeletionScreenController</node>
+    <node x="662.0" y="2676.0">GUI.UserMenuPanel</node>
+    <node x="1177.1810897435898" y="1892.0">GUI.UserMenuController</node>
+    <node x="1344.6666666666667" y="1712.0">GUI.MessageScreenPanel</node>
+    <node x="976.5" y="1712.0">GUI.DeletionScreenPanel</node>
+    <node x="2139.4166666666665" y="883.0">GUI.ScheduleController</node>
+    <node x="1129.1458333333335" y="3832.0">GUI.DisplayMain</node>
+    <node x="583.25" y="3346.0">GUI.LoginController</node>
+    <node x="1680.666666666667" y="1712.0">GUI.CreationScreenPanel</node>
+    <node x="2165.4166666666665" y="502.0">GUI.EventEditPanel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GUI.LoginController" target="GUI.SignUpPanel">
+      <point x="0.0" y="-138.0" />
+      <point x="-66.25" y="50.0" />
+    </edge>
+    <edge source="GUI.ScheduleController" target="GUI.LoginPanel">
+      <point x="43.374999999999886" y="259.0" />
+      <point x="2356.2916666666665" y="1692.0" />
+      <point x="2280.5416666666665" y="1692.0" />
+      <point x="2280.5416666666665" y="3662.0" />
+      <point x="1316.9791666666667" y="3662.0" />
+      <point x="105.83333333333326" y="-50.0" />
+    </edge>
+    <edge source="GUI.ScheduleController" target="GUI.UserMenuPanel">
+      <point x="-43.375" y="259.0" />
+      <point x="2269.5416666666665" y="2656.0" />
+      <point x="933.2083333333333" y="2656.0" />
+      <point x="129.70833333333326" y="-50.0" />
+    </edge>
+    <edge source="GUI.SchedulePanel" target="GUI.ScheduleController">
+      <point x="-69.0" y="-50.0" />
+      <point x="2397.3541666666665" y="1692.0" />
+      <point x="2443.0416666666665" y="1692.0" />
+      <point x="130.125" y="259.0" />
+    </edge>
+    <edge source="GUI.UserMenuController" target="GUI.LoginPanel">
+      <point x="0.0" y="347.0" />
+      <point x="1354.1810897435898" y="2616.0" />
+      <point x="1477.1666666666667" y="2616.0" />
+      <point x="1477.1666666666667" y="3642.0" />
+      <point x="1232.3125" y="3642.0" />
+      <point x="21.16666666666663" y="-50.0" />
+    </edge>
+    <edge source="GUI.EventEditController" target="GUI.SchedulePanel">
+      <point x="131.66666666666663" y="226.0" />
+      <point x="2272.0352564102564" y="472.0" />
+      <point x="2535.3541666666665" y="472.0" />
+      <point x="69.0" y="-50.0" />
+    </edge>
+    <edge source="GUI.DeletionScreenController" target="GUI.UserMenuPanel">
+      <point x="0.0" y="259.0" />
+      <point x="600.768269230769" y="1692.0" />
+      <point x="439.16666666666674" y="1692.0" />
+      <point x="439.16666666666674" y="2616.0" />
+      <point x="768.125" y="2616.0" />
+      <point x="-35.375" y="-50.0" />
+    </edge>
+    <edge source="GUI.ScheduleController" target="GUI.EventEditPanel">
+      <point x="0.0" y="-259.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="GUI.MessageScreenController" target="GUI.UserMenuPanel">
+      <point x="0.0" y="369.0" />
+      <point x="1005.768269230769" y="1692.0" />
+      <point x="966.0" y="1692.0" />
+      <point x="966.0" y="2606.0" />
+      <point x="815.2916666666667" y="2606.0" />
+      <point x="11.791666666666742" y="-50.0" />
+    </edge>
+    <edge source="GUI.CreationScreenPanel" target="GUI.CreationScreenController">
+      <point x="0.0" y="-50.0" />
+      <point x="1837.666666666667" y="1692.0" />
+      <point x="1798.5833333333335" y="1692.0" />
+      <point x="-128.33333333333326" y="490.0" />
+    </edge>
+    <edge source="GUI.SignUpPanel" target="GUI.SignUpController">
+      <point x="0.0" y="-50.0" />
+      <point x="812.0" y="3171.0" />
+      <point x="777.0" y="3171.0" />
+      <point x="-112.0" y="160.0" />
+    </edge>
+    <edge source="GUI.UserMenuController" target="GUI.MessageScreenPanel">
+      <point x="0.0" y="-347.0" />
+      <point x="1354.1810897435898" y="1832.0" />
+      <point x="1423.6666666666667" y="1832.0" />
+      <point x="-79.0" y="50.0" />
+    </edge>
+    <edge source="GUI.UserMenuController" target="GUI.DeletionScreenPanel">
+      <point x="-78.66666666666674" y="-347.0" />
+      <point x="1275.514423076923" y="1852.0" />
+      <point x="1054.5" y="1852.0" />
+      <point x="-78.0" y="50.0" />
+    </edge>
+    <edge source="GUI.UserMenuController" target="GUI.SchedulePanel">
+      <point x="157.33333333333326" y="-347.0" />
+      <point x="1511.514423076923" y="1872.0" />
+      <point x="2466.3541666666665" y="1872.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="GUI.DeletionScreenPanel" target="GUI.DeletionScreenController">
+      <point x="0.0" y="-50.0" />
+      <point x="1132.5" y="1662.0" />
+      <point x="728.4349358974355" y="1662.0" />
+      <point x="127.66666666666652" y="259.0" />
+    </edge>
+    <edge source="GUI.LoginController" target="GUI.UserMenuPanel">
+      <point x="-108.33333333333326" y="-138.0" />
+      <point x="637.4166666666667" y="3321.0" />
+      <point x="669.0" y="3321.0" />
+      <point x="669.0" y="2801.0" />
+      <point x="709.1666666666666" y="2801.0" />
+      <point x="-94.33333333333337" y="50.0" />
+    </edge>
+    <edge source="GUI.ReviewScreenController" target="GUI.UserMenuPanel">
+      <point x="-125.0" y="138.0" />
+      <point x="62.5" y="1692.0" />
+      <point x="119.5" y="1692.0" />
+      <point x="119.5" y="2656.0" />
+      <point x="673.7916666666667" y="2656.0" />
+      <point x="-129.70833333333326" y="-50.0" />
+    </edge>
+    <edge source="GUI.SignUpController" target="GUI.UserMenuPanel">
+      <point x="-84.0" y="-160.0" />
+      <point x="805.0" y="2801.0" />
+      <point x="803.5" y="2801.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="GUI.MessageScreenPanel" target="GUI.MessageScreenController">
+      <point x="0.0" y="-50.0" />
+      <point x="1502.6666666666667" y="1652.0" />
+      <point x="1134.768269230769" y="1652.0" />
+      <point x="129.0" y="369.0" />
+    </edge>
+    <edge source="GUI.CreationScreenController" target="GUI.UserMenuPanel">
+      <point x="0.0" y="490.0" />
+      <point x="1926.9166666666667" y="1692.0" />
+      <point x="2005.166666666667" y="1692.0" />
+      <point x="2005.166666666667" y="2626.0" />
+      <point x="862.4583333333334" y="2626.0" />
+      <point x="58.95833333333337" y="-50.0" />
+    </edge>
+    <edge source="GUI.EventEditController" target="GUI.UserMenuPanel">
+      <point x="-131.66666666666663" y="226.0" />
+      <point x="2008.7019230769233" y="482.0" />
+      <point x="385.5" y="482.0" />
+      <point x="385.5" y="2636.0" />
+      <point x="720.9583333333335" y="2636.0" />
+      <point x="-82.54166666666652" y="-50.0" />
+    </edge>
+    <edge source="GUI.UserMenuController" target="GUI.CreationScreenPanel">
+      <point x="78.66666666666674" y="-347.0" />
+      <point x="1432.8477564102566" y="1852.0" />
+      <point x="1759.166666666667" y="1852.0" />
+      <point x="-78.5" y="50.0" />
+    </edge>
+    <edge source="GUI.DisplayMain" target="GUI.LoginPanel">
+      <point x="-41.0" y="-38.0" />
+      <point x="1170.1458333333335" y="3807.0" />
+      <point x="1147.6458333333335" y="3807.0" />
+      <point x="-63.5" y="50.0" />
+    </edge>
+    <edge source="GUI.EventEditPanel" target="GUI.EventEditController">
+      <point x="0.0" y="-50.0" />
+      <point x="2312.9166666666665" y="482.0" />
+      <point x="2140.36858974359" y="482.0" />
+      <point x="0.0" y="226.0" />
+    </edge>
+    <edge source="GUI.ReviewScreenPanel" target="GUI.ReviewScreenController">
+      <point x="0.0" y="-50.0" />
+      <point x="779.0035256410256" y="1672.0" />
+      <point x="312.5" y="1672.0" />
+      <point x="125.0" y="138.0" />
+    </edge>
+    <edge source="GUI.LoginPanel" target="GUI.LoginController">
+      <point x="-105.83333333333337" y="-50.0" />
+      <point x="1105.3125" y="3662.0" />
+      <point x="745.75" y="3662.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="GUI.UserMenuPanel" target="GUI.UserMenuController">
+      <point x="35.375" y="-50.0" />
+      <point x="838.875" y="2616.0" />
+      <point x="1236.1810897435898" y="2616.0" />
+      <point x="-118.0" y="347.0" />
+    </edge>
+    <edge source="GUI.SignUpController" target="GUI.LoginPanel">
+      <point x="0.0" y="160.0" />
+      <point x="889.0" y="3171.0" />
+      <point x="955.0" y="3171.0" />
+      <point x="955.0" y="3652.0" />
+      <point x="1147.6458333333335" y="3652.0" />
+      <point x="-63.5" y="-50.0" />
+    </edge>
+    <edge source="GUI.UserMenuController" target="GUI.ReviewScreenPanel">
+      <point x="-118.0" y="-347.0" />
+      <point x="1236.1810897435898" y="1862.0" />
+      <point x="855.0035256410256" y="1862.0" />
+      <point x="76.0" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.62" x="637.6451612903226" y="305.0" />
+  <SelectedNodes>
+    <node>GUI.LoginPanel</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

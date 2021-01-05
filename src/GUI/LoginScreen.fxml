@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="CENTER" hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" vgap="10.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <padding><Insets bottom="10.0" left="25.0" right="35.0" top="25.0" /></padding>
+   <Label layoutX="181.0" layoutY="186.0" text="Email:" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+   <TextField fx:id="person" layoutX="288.0" layoutY="196.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+    <Text text="Welcome" wrappingWidth="85.57618236541748" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="TOP">
+      <font>
+         <Font name="System Bold" size="18.0" />
+      </font></Text>
+
+    <Label text="Name:" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+
+    <TextField fx:id="userId" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+
+    <Label text="Password:" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+
+    <PasswordField fx:id="passwordField" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+    <HBox alignment="bottom_right" prefHeight="38.0" prefWidth="146.0" spacing="10" GridPane.columnIndex="7" GridPane.rowIndex="11">
+      <children>
+         <Button onAction="#handleSignUpButtonAction" prefHeight="38.0" prefWidth="76.0" text="Sign Up">
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+         </Button>
+           <Button onAction="#handleSubmitButtonAction" prefHeight="50.0" prefWidth="72.0" text="Sign In">
+            <HBox.margin>
+               <Insets />
+            </HBox.margin></Button>
+      </children>
+    </HBox>
+
+    <Text fx:id="actiontarget" GridPane.columnIndex="6" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="13" />
+   <Button mnemonicParsing="false" onAction="#saveAndExit" text="Save and Exit" GridPane.columnIndex="7" GridPane.halignment="RIGHT" GridPane.rowIndex="13" GridPane.valignment="CENTER" />
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="12.800012207031273" minWidth="0.0" prefWidth="8.000024414062523" />
+      <ColumnConstraints maxWidth="13.600000000000023" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="151.19998779296878" minWidth="120.80000000000001" prefWidth="151.19998779296878" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints fillHeight="false" maxHeight="-Infinity" minHeight="-Infinity" />
+      <RowConstraints fillHeight="false" maxHeight="-Infinity" minHeight="-Infinity" />
+      <RowConstraints fillHeight="false" maxHeight="25.599999999999994" minHeight="-Infinity" prefHeight="25.599999999999994" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="25.599999999999994" minHeight="25.599999999999994" prefHeight="25.599999999999994" />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

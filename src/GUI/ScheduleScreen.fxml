@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox prefHeight="34.0" prefWidth="700.0" style="-fx-background-color: #D3D3D3;" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Codec">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            <HBox prefHeight="29.0" prefWidth="496.0" HBox.hgrow="ALWAYS" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Schedule" wrappingWidth="56.82348710298538">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+   </top>
+   <left>
+      <VBox alignment="BOTTOM_LEFT" maxWidth="-Infinity" prefHeight="366.0" prefWidth="233.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="registered" strokeType="OUTSIDE" strokeWidth="0.0" text="Registered Events">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="2.0" />
+               </VBox.margin>
+            </Text>
+            <ListView fx:id="registeredEvents" prefHeight="345.0" prefWidth="234.0" style="-fx-background-color: #D3D3D3;">
+               <contextMenu>
+                  <ContextMenu>
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#unenrollFromEvent" text="Unenroll" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu></ListView>
+         </children></VBox>
+   </left>
+   <right>
+      <VBox prefHeight="366.0" prefWidth="458.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="mainList" strokeType="OUTSIDE" strokeWidth="0.0" text="Available Events" wrappingWidth="114.90234375">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="2.0" />
+               </VBox.margin>
+            </Text>
+            <ListView fx:id="availableEvents" prefHeight="342.0" prefWidth="437.0" style="-fx-background-color: #D3D3D3;">
+               <contextMenu>
+                  <ContextMenu>
+                    <items>
+                      <MenuItem fx:id="registerEventA" mnemonicParsing="false" onAction="#registerInEvent" text="Register" />
+                        <MenuItem fx:id="deleteEventA" mnemonicParsing="false" onAction="#handleDeleteEventA" text="Delete" />
+                        <MenuItem fx:id="editEventA" mnemonicParsing="false" onAction="#handleEditEventA" text="Edit" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu></ListView>
+         </children>
+      </VBox>
+   </right>
+   <bottom>
+      <HBox alignment="CENTER_LEFT" prefHeight="37.0" prefWidth="700.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#returnToMenu" prefHeight="26.0" prefWidth="54.0" text="Back">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Pane prefHeight="38.0" prefWidth="554.0" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#handleLogOut" prefHeight="30.0" prefWidth="74.0" text="Log Out">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

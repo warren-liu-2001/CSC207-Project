@@ -1,0 +1,5 @@
+(0)Attendee type, (1)User ID, (2)Name, (3)Email, (4)password, (5-len)Friends1,friends2,...etc.
+Attendee, User 0, Example User, exampleuser@gmail.com, password1, User 1, User 2
+Organizer, User 1, Example Organizer, exampleorganizer@mail.utoronto.ca, password2, User 0
+Attendee, User 2, Example User2, exampleuser2@gmail.com, password2, User 0
+Speaker, User 3, Example Speaker, examplespeaker@mail.utoronto.ca, password3

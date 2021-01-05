@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Controllers</OriginalElement>
+  <nodes>
+    <node x="2211.0902813299235" y="1894.0">Controllers.FeedbackControllerFactory</node>
+    <node x="1274.0" y="1850.0">Controllers.ScheduleViewer</node>
+    <node x="0.0" y="408.0">Controllers.Messenger</node>
+    <node x="2211.0902813299235" y="452.0">Controllers.UseCaseFactory</node>
+    <node x="2269.7569479965896" y="1075.0">Controllers.FeedbackController</node>
+    <node x="0.0" y="2685.0">Controllers.ExtractedUseCasesStorage</node>
+    <node x="379.0" y="1784.0">Controllers.ViewUserInformation</node>
+    <node x="1937.0902813299233" y="430.5">Controllers.AppGateway</node>
+    <node x="1158.5115249360613" y="2254.0">Controllers.UserAccountSystem</node>
+    <node x="1576.0902813299233" y="430.0">Controllers.Registrar</node>
+    <node x="780.0000000000001" y="1850.0">Controllers.TalkOrganizer</node>
+    <node x="1334.3402813299233" y="0.0">Controllers.UseCaseStorage</node>
+    <node x="979.8333333333333" y="646.0">Controllers.UserAccount</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Controllers.TalkOrganizer" target="Controllers.UserAccount">
+      <point x="0.0" y="-94.0" />
+      <point x="1005.5000000000001" y="1764.0" />
+      <point x="1123.1666666666667" y="1764.0" />
+      <point x="-114.66666666666663" y="534.0" />
+    </edge>
+    <edge source="Controllers.FeedbackControllerFactory" target="Controllers.FeedbackController">
+      <point x="-106.66666666666652" y="-50.0" />
+      <point x="2264.4236146632566" y="1764.0" />
+      <point x="2311.35694799659" y="1764.0" />
+      <point x="-166.4000000000001" y="105.0" />
+    </edge>
+    <edge source="Controllers.UserAccountSystem" target="Controllers.UseCaseStorage">
+      <point x="120.0" y="-193.0" />
+      <point x="1451.0115249360613" y="2204.0" />
+      <point x="2200.5902813299235" y="2204.0" />
+      <point x="2200.5902813299235" y="348.0" />
+      <point x="1853.693222506394" y="348.0" />
+      <point x="192.35294117647072" y="149.0" />
+    </edge>
+    <edge source="Controllers.UserAccountSystem" target="Controllers.FeedbackController">
+      <point x="150.0" y="-193.0" />
+      <point x="1481.0115249360613" y="2224.0" />
+      <point x="2541.5902813299235" y="2224.0" />
+      <point x="2541.5902813299235" y="1754.0" />
+      <point x="2560.9569479965894" y="1754.0" />
+      <point x="83.19999999999982" y="105.0" />
+    </edge>
+    <edge source="Controllers.UserAccountSystem" target="Controllers.TalkOrganizer">
+      <point x="-75.0" y="-193.0" />
+      <point x="1256.0115249360613" y="2174.0" />
+      <point x="855.1666666666667" y="2174.0" />
+      <point x="-150.33333333333337" y="94.0" />
+    </edge>
+    <edge source="Controllers.Registrar" target="Controllers.UseCaseStorage">
+      <point x="-85.25" y="-72.0" />
+      <point x="0.0" y="149.0" />
+    </edge>
+    <edge source="Controllers.UserAccount" target="Controllers.Messenger">
+      <point x="-193.4999999999999" y="-534.0" />
+      <point x="1044.3333333333335" y="626.0" />
+      <point x="549.8999999999999" y="626.0" />
+      <point x="244.39999999999986" y="94.0" />
+    </edge>
+    <edge source="Controllers.ScheduleViewer" target="Controllers.UserAccount">
+      <point x="-126.33333333333331" y="-94.0" />
+      <point x="1337.1666666666667" y="1764.0" />
+      <point x="1409.8333333333335" y="1764.0" />
+      <point x="172.0000000000001" y="534.0" />
+    </edge>
+    <edge source="Controllers.ViewUserInformation" target="Controllers.UseCaseStorage">
+      <point x="-76.19999999999982" y="-160.0" />
+      <point x="493.3000000000002" y="1754.0" />
+      <point x="621.5" y="1754.0" />
+      <point x="621.5" y="338.0" />
+      <point x="1430.5167519181587" y="338.0" />
+      <point x="-230.82352941176464" y="149.0" />
+    </edge>
+    <edge source="Controllers.ViewUserInformation" target="Controllers.UserAccount">
+      <point x="76.20000000000005" y="-160.0" />
+      <point x="645.7" y="1744.0" />
+      <point x="1008.5" y="1744.0" />
+      <point x="-229.33333333333337" y="534.0" />
+    </edge>
+    <edge source="Controllers.ScheduleViewer" target="Controllers.UseCaseStorage">
+      <point x="126.33333333333337" y="-94.0" />
+      <point x="1589.8333333333335" y="1764.0" />
+      <point x="1532.518472932651" y="1764.0" />
+      <point x="1532.518472932651" y="388.0" />
+      <point x="1622.8696930946292" y="388.0" />
+      <point x="-38.470588235294144" y="149.0" />
+    </edge>
+    <edge source="Controllers.UserAccountSystem" target="Controllers.Messenger">
+      <point x="-135.0" y="-193.0" />
+      <point x="1196.0115249360613" y="2214.0" />
+      <point x="275.4588768115939" y="2214.0" />
+      <point x="275.4588768115939" y="626.0" />
+      <point x="305.5" y="626.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="Controllers.UserAccount" target="Controllers.Registrar">
+      <point x="193.5000000000001" y="-534.0" />
+      <point x="1431.3333333333335" y="626.0" />
+      <point x="1618.7152813299233" y="626.0" />
+      <point x="-127.875" y="72.0" />
+    </edge>
+    <edge source="Controllers.TalkOrganizer" target="Controllers.UseCaseStorage">
+      <point x="-150.33333333333337" y="-94.0" />
+      <point x="855.1666666666667" y="1734.0" />
+      <point x="830.9236146632564" y="1734.0" />
+      <point x="830.9236146632564" y="358.0" />
+      <point x="1507.4579283887467" y="358.0" />
+      <point x="-153.88235294117658" y="149.0" />
+    </edge>
+    <edge source="Controllers.UserAccountSystem" target="Controllers.ScheduleViewer">
+      <point x="15.0" y="-193.0" />
+      <point x="1346.0115249360613" y="2234.0" />
+      <point x="1337.1666666666667" y="2234.0" />
+      <point x="-126.33333333333331" y="94.0" />
+    </edge>
+    <edge source="Controllers.UserAccountSystem" target="Controllers.ViewUserInformation">
+      <point x="-120.0" y="-193.0" />
+      <point x="1211.0115249360613" y="2204.0" />
+      <point x="442.5" y="2204.0" />
+      <point x="-127.0" y="160.0" />
+    </edge>
+    <edge source="Controllers.AppGateway" target="Controllers.UseCaseStorage">
+      <point x="-60.5" y="-71.5" />
+      <point x="1997.5902813299233" y="378.0" />
+      <point x="1738.2814578005116" y="378.0" />
+      <point x="76.94117647058829" y="149.0" />
+    </edge>
+    <edge source="Controllers.UserAccountSystem" target="Controllers.UserAccount">
+      <point x="0.0" y="-193.0" />
+      <point x="1331.0115249360613" y="2124.0" />
+      <point x="1263.5" y="2124.0" />
+      <point x="1263.5" y="1754.0" />
+      <point x="1352.5" y="1754.0" />
+      <point x="114.66666666666663" y="534.0" />
+    </edge>
+    <edge source="Controllers.Messenger" target="Controllers.UseCaseStorage">
+      <point x="-152.75" y="-94.0" />
+      <point x="152.75" y="318.0" />
+      <point x="1353.5755754475704" y="318.0" />
+      <point x="-307.7647058823529" y="149.0" />
+    </edge>
+    <edge source="Controllers.UserAccountSystem" target="Controllers.FeedbackControllerFactory">
+      <point x="135.0" y="-193.0" />
+      <point x="1466.0115249360613" y="2214.0" />
+      <point x="2371.0902813299235" y="2214.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="Controllers.ViewUserInformation" target="Controllers.Messenger">
+      <point x="-152.39999999999986" y="-160.0" />
+      <point x="417.10000000000014" y="1764.0" />
+      <point x="390.9000000000001" y="1764.0" />
+      <point x="390.9000000000001" y="626.0" />
+      <point x="427.70000000000005" y="626.0" />
+      <point x="122.20000000000005" y="94.0" />
+    </edge>
+    <edge source="Controllers.UseCaseFactory" target="Controllers.UseCaseStorage">
+      <point x="-95.33333333333348" y="-50.0" />
+      <point x="2258.7569479965896" y="338.0" />
+      <point x="1892.1638107416882" y="338.0" />
+      <point x="230.82352941176487" y="149.0" />
+    </edge>
+    <edge source="Controllers.UserAccountSystem" target="Controllers.Registrar">
+      <point x="90.0" y="-193.0" />
+      <point x="1421.0115249360613" y="2184.0" />
+      <point x="1816.0323582693945" y="2184.0" />
+      <point x="1816.0323582693945" y="626.0" />
+      <point x="1874.4652813299233" y="626.0" />
+      <point x="127.875" y="72.0" />
+    </edge>
+    <edge source="Controllers.UserAccount" target="Controllers.UseCaseStorage">
+      <point x="64.50000000000011" y="-534.0" />
+      <point x="1302.3333333333335" y="626.0" />
+      <point x="1229.6018062659844" y="626.0" />
+      <point x="1229.6018062659844" y="378.0" />
+      <point x="1584.399104859335" y="378.0" />
+      <point x="-76.94117647058829" y="149.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="479.5" y="298.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

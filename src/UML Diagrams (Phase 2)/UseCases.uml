@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>UseCases</OriginalElement>
+  <nodes>
+    <node x="1024.1032407407408" y="2535.0">UseCases.SpeakerManager</node>
+    <node x="1800.3157407407407" y="260.0">UseCases.FeedbackManager</node>
+    <node x="978.1097222222222" y="3583.0">UseCases.EventSearch</node>
+    <node x="1897.3157407407407" y="0.0">UseCases.FeedbackBuilder</node>
+    <node x="946.2282407407408" y="1025.0">UseCases.TalkManager</node>
+    <node x="571.2129629629629" y="215.0">UseCases.UserManager</node>
+    <node x="1088.1097222222222" y="3081.0">UseCases.RoomManager</node>
+    <node x="352.52546296296305" y="0.0">UseCases.UserType</node>
+    <node x="432.0" y="1289.0">UseCases.InboxManager</node>
+    <node x="0.0" y="1191.0">UseCases.AttributeChanger</node>
+    <node x="863.1032407407408" y="1791.0">UseCases.AttendeeManager</node>
+    <node x="1172.3157407407407" y="490.5">UseCases.AvailabilityChecker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="UseCases.RoomManager" target="UseCases.AttendeeManager">
+      <point x="-156.0" y="-226.0" />
+      <point x="1244.1097222222222" y="3051.0" />
+      <point x="1003.1032407407408" y="3051.0" />
+      <point x="-140.0" y="347.0" />
+    </edge>
+    <edge source="UseCases.AvailabilityChecker" target="UseCases.TalkManager">
+      <point x="0.0" y="104.5" />
+      <point x="1463.8157407407407" y="1005.0" />
+      <point x="1528.1032407407408" y="1005.0" />
+      <point x="249.375" y="-358.0" />
+    </edge>
+    <edge source="UseCases.InboxManager" target="UseCases.UserManager">
+      <point x="0.0" y="-94.0" />
+      <point x="615.5" y="1005.0" />
+      <point x="690.8379629629629" y="1005.0" />
+      <point x="-39.875" y="380.0" />
+    </edge>
+    <edge source="UseCases.FeedbackManager" target="UseCases.FeedbackBuilder">
+      <point x="-102.0" y="-149.0" />
+      <point x="1902.3157407407407" y="235.0" />
+      <point x="1950.8157407407407" y="235.0" />
+      <point x="-53.5" y="105.0" />
+    </edge>
+    <edge source="UseCases.EventSearch" target="UseCases.RoomManager">
+      <point x="-79.5" y="-82.5" />
+      <point x="1216.6097222222222" y="3558.0" />
+      <point x="1192.1097222222222" y="3558.0" />
+      <point x="-208.0" y="226.0" />
+    </edge>
+    <edge source="UseCases.AttributeChanger" target="UseCases.UserManager">
+      <point x="103.0" y="-192.0" />
+      <point x="309.0" y="995.0" />
+      <point x="611.0879629629629" y="995.0" />
+      <point x="-119.625" y="380.0" />
+    </edge>
+    <edge source="UseCases.RoomManager" target="UseCases.SpeakerManager">
+      <point x="-52.0" y="-226.0" />
+      <point x="1348.1097222222222" y="3061.0" />
+      <point x="1297.1032407407408" y="3061.0" />
+      <point x="0.0" y="248.0" />
+    </edge>
+    <edge source="UseCases.AttributeChanger" target="UseCases.UserType">
+      <point x="-103.0" y="-192.0" />
+      <point x="103.0" y="190.0" />
+      <point x="403.52546296296305" y="190.0" />
+      <point x="-51.0" y="82.5" />
+    </edge>
+    <edge source="UseCases.RoomManager" target="UseCases.TalkManager">
+      <point x="52.0" y="-226.0" />
+      <point x="1452.1097222222222" y="3051.0" />
+      <point x="1625.650462962963" y="3051.0" />
+      <point x="1625.650462962963" y="1766.0" />
+      <point x="1528.1032407407408" y="1766.0" />
+      <point x="249.375" y="358.0" />
+    </edge>
+    <edge source="UseCases.TalkManager" target="UseCases.AvailabilityChecker">
+      <point x="83.125" y="-358.0" />
+      <point x="1361.8532407407408" y="1005.0" />
+      <point x="1347.2157407407408" y="1005.0" />
+      <point x="-116.59999999999991" y="104.5" />
+    </edge>
+    <edge source="UseCases.SpeakerManager" target="UseCases.AttendeeManager">
+      <point x="-136.5" y="-248.0" />
+      <point x="1160.6032407407408" y="2510.0" />
+      <point x="1283.1032407407408" y="2510.0" />
+      <point x="140.0" y="347.0" />
+    </edge>
+    <edge source="UseCases.RoomManager" target="UseCases.EventSearch">
+      <point x="208.0" y="226.0" />
+      <point x="1608.1097222222222" y="3558.0" />
+      <point x="1534.6097222222222" y="3558.0" />
+      <point x="238.5" y="-82.5" />
+    </edge>
+    <edge source="UseCases.RoomManager" target="UseCases.UserManager">
+      <point x="-260.0" y="-226.0" />
+      <point x="1140.1097222222222" y="3061.0" />
+      <point x="809.5" y="3061.0" />
+      <point x="809.5" y="1005.0" />
+      <point x="770.5879629629629" y="1005.0" />
+      <point x="39.875" y="380.0" />
+    </edge>
+    <edge source="UseCases.RoomManager" target="UseCases.AvailabilityChecker">
+      <point x="260.00000000000006" y="-226.0" />
+      <point x="1660.1097222222222" y="3061.0" />
+      <point x="1648.675" y="3061.0" />
+      <point x="1648.675" y="1005.0" />
+      <point x="1697.0157407407407" y="1005.0" />
+      <point x="233.2" y="104.5" />
+    </edge>
+    <edge source="UseCases.AttendeeManager" target="UseCases.TalkManager">
+      <point x="0.0" y="-347.0" />
+      <point x="1143.1032407407408" y="1766.0" />
+      <point x="1195.6032407407408" y="1766.0" />
+      <point x="-83.125" y="358.0" />
+    </edge>
+    <edge source="UseCases.EventSearch" target="UseCases.TalkManager">
+      <point x="-238.5" y="-82.5" />
+      <point x="1057.6097222222222" y="3558.0" />
+      <point x="844.6032407407408" y="3558.0" />
+      <point x="844.6032407407408" y="1766.0" />
+      <point x="1029.3532407407408" y="1766.0" />
+      <point x="-249.375" y="358.0" />
+    </edge>
+    <edge source="UseCases.UserManager" target="UseCases.UserType">
+      <point x="1.1368683772161603E-13" y="-380.0" />
+      <point x="730.712962962963" y="190.0" />
+      <point x="505.52546296296305" y="190.0" />
+      <point x="51.0" y="82.5" />
+    </edge>
+    <edge source="UseCases.SpeakerManager" target="UseCases.TalkManager">
+      <point x="136.5" y="-248.0" />
+      <point x="1433.6032407407408" y="1766.0" />
+      <point x="1361.8532407407408" y="1766.0" />
+      <point x="83.125" y="358.0" />
+    </edge>
+    <edge source="UseCases.TalkManager" target="UseCases.UserManager">
+      <point x="-249.375" y="-358.0" />
+      <point x="1029.3532407407408" y="1005.0" />
+      <point x="850.337962962963" y="1005.0" />
+      <point x="119.62500000000011" y="380.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.806" x="599.7270471464019" y="559.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

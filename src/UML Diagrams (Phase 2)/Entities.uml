@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Entities</OriginalElement>
+  <nodes>
+    <node x="1985.3333705357143" y="897.0">Entities.Speaker</node>
+    <node x="893.0" y="1575.0">Entities.Panel</node>
+    <node x="2340.8333705357145" y="0.0">Entities.Message</node>
+    <node x="1668.3333705357143" y="820.0">Entities.Attendee</node>
+    <node x="0.0" y="985.0">Entities.Party</node>
+    <node x="431.0" y="1476.0">Entities.Room</node>
+    <node x="275.0" y="0.0">Entities.Event</node>
+    <node x="1560.0" y="1575.0">Entities.Organizer</node>
+    <node x="0.0" y="2409.0">Entities.Feedback</node>
+    <node x="1625.5627232142856" y="2044.0">Entities.Admin</node>
+    <node x="1868.0627232142856" y="1652.0">Entities.VIPAttendee</node>
+    <node x="915.09296875" y="930.0">Entities.Talk</node>
+    <node x="1725.5" y="165.0">Entities.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Entities.Organizer" target="Entities.Talk">
+      <point x="-103.75" y="-160.0" />
+      <point x="1580.75" y="1456.0" />
+      <point x="1411.21796875" y="1456.0" />
+      <point x="212.625" y="193.0" />
+    </edge>
+    <edge source="Entities.Panel" target="Entities.Talk">
+      <point x="-161.75" y="-160.0" />
+      <point x="1054.75" y="1456.0" />
+      <point x="1127.71796875" y="1456.0" />
+      <point x="-70.875" y="193.0" />
+    </edge>
+    <edge source="Entities.Admin" target="Entities.Organizer">
+      <point x="-98.0" y="-160.0" />
+      <point x="1674.5627232142856" y="2019.0" />
+      <point x="1622.25" y="2019.0" />
+      <point x="-62.25" y="160.0" />
+    </edge>
+    <edge source="Entities.Room" target="Entities.Talk">
+      <point x="110.5" y="-259.0" />
+      <point x="762.5" y="1456.0" />
+      <point x="985.96796875" y="1456.0" />
+      <point x="-212.625" y="193.0" />
+    </edge>
+    <edge source="Entities.VIPAttendee" target="Entities.Attendee">
+      <point x="66.0" y="-83.0" />
+      <point x="2066.0627232142856" y="1446.0" />
+      <point x="1935.6333705357142" y="1446.0" />
+      <point x="118.79999999999995" y="303.0" />
+    </edge>
+    <edge source="Entities.Organizer" target="Entities.User">
+      <point x="-20.75" y="-160.0" />
+      <point x="1663.75" y="1456.0" />
+      <point x="1631.25" y="1456.0" />
+      <point x="1631.25" y="790.0" />
+      <point x="1785.0714285714287" y="790.0" />
+      <point x="-79.42857142857133" y="215.0" />
+    </edge>
+    <edge source="Entities.Admin" target="Entities.User">
+      <point x="98.0" y="-160.0" />
+      <point x="1870.5627232142856" y="2019.0" />
+      <point x="2289.8333705357145" y="2019.0" />
+      <point x="2289.8333705357145" y="780.0" />
+      <point x="1983.642857142857" y="780.0" />
+      <point x="119.14285714285711" y="215.0" />
+    </edge>
+    <edge source="Entities.Attendee" target="Entities.User">
+      <point x="74.25" y="-303.0" />
+      <point x="1891.0833705357143" y="800.0" />
+      <point x="1864.5" y="800.0" />
+      <point x="0.0" y="215.0" />
+    </edge>
+    <edge source="Entities.Talk" target="Entities.Event">
+      <point x="-141.75" y="-193.0" />
+      <point x="1056.84296875" y="800.0" />
+      <point x="648.1" y="800.0" />
+      <point x="106.60000000000002" y="380.0" />
+    </edge>
+    <edge source="Entities.Party" target="Entities.Event">
+      <point x="-132.75" y="-138.0" />
+      <point x="132.75" y="800.0" />
+      <point x="328.29999999999995" y="800.0" />
+      <point x="-213.2" y="380.0" />
+    </edge>
+    <edge source="Entities.Room" target="Entities.Event">
+      <point x="-110.5" y="-259.0" />
+      <point x="0.0" y="380.0" />
+    </edge>
+    <edge source="Entities.Speaker" target="Entities.User">
+      <point x="73.5" y="-226.0" />
+      <point x="2205.8333705357145" y="790.0" />
+      <point x="1943.9285714285716" y="790.0" />
+      <point x="79.42857142857156" y="215.0" />
+    </edge>
+    <edge source="Entities.Organizer" target="Entities.Attendee">
+      <point x="20.75" y="-160.0" />
+      <point x="1705.25" y="1456.0" />
+      <point x="1698.0333705357143" y="1456.0" />
+      <point x="-118.79999999999995" y="303.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="249.5" y="290.5" />
+  <SelectedNodes>
+    <node>Entities.User</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
